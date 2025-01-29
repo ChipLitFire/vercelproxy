@@ -29,45 +29,8 @@
             height: 100vh;
             display: flex;
             flex-direction: column;
-        }
-        .sidebar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 240px;
-            background: #222;
-            padding: 25px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5);
-        }
-        .sidebar h1 {
-            color: #bbb;
-            font-size: 2rem;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        .sidebar a {
-            color: #aaa;
-            text-decoration: none;
-            font-size: 1.2rem;
-            padding: 12px 20px;
-            border-radius: 8px;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .sidebar a:hover {
-            background-color: #444;
-            color: #ffffff;
-        }
-        .main {
-            margin-left: 240px;
-            display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             text-align: center;
         }
         .main h1 {
@@ -139,7 +102,6 @@
         }
         .footer {
             margin-top: auto;
-            margin-left: 240px;
             padding: 15px 20px;
             background: #222;
             text-align: center;
@@ -148,14 +110,6 @@
     </style>
 </head>
 <body>
-    <div class="sidebar">
-        <h1>Nooble</h1>
-        <a href="/index.html">Home</a>
-        <a href="/games/">Games</a>
-        <a href="/apps/">Apps</a>
-        <a href="/movies/">Movies</a>
-        <a href="/proxy/">Proxy</a>
-    </div>
     <div class="main">
         <h1>Nooble Proxy</h1>
         <p>Fast and secure browsing. Enter a URL to get started.</p>
@@ -167,6 +121,7 @@
         <div class="error" id="error">URL does not exist or is not correct. Please try again!</div>
     </div>
     <script>
-// Idk What To Do Here?
+        // Idk What To Do Here?
+    </script>
 </body>
 </html>
